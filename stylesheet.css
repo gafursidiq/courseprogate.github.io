@@ -16,6 +16,8 @@ h1, h2, h3, h4, h5, h6, p, div
 body 
 {
   font-family: "Lucida Grande";
+/*  background-color: rgba(8,8,8,1);
+  color: white;*/
 }
 
 a 
@@ -32,7 +34,7 @@ ul
 {
   max-width: 1366px;
   width: 100%;
-  margin: 0 auto;
+  margin: 0 0;
   padding: 0 50px;
 }
 
@@ -56,11 +58,6 @@ ul
   background-color: rgba(5, 5, 5, 1);
 }
 
-.bghead
-{
-  background-color: rgba(220, 221, 225, 0.9);
-}
-
 .bghead a
 {
   color: black 
@@ -72,11 +69,6 @@ ul
   background-color: rgba(200, 200, 200, 0.2); 
   cursor: pointer; 
   height: 95px;
-}
-
-.bghead2
-{
-  background-color: rgba(220, 221, 225, 0.0);
 }
 
 .bghead2 a
@@ -101,12 +93,11 @@ ul
   -webkit-animation: .95s ease-in-out 0s normal none 1 running fadeInDown;
   animation: .95s cubic-bezier(0, 0, 0.2, 1) 0s normal none 1 running fadeInDown;
   z-index: 3;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
-  background-color: #fff;
 }
 
 .logo 
@@ -129,7 +120,7 @@ ul
 .header-right 
 {
   float: right;
-  transition: all 0.5s;
+  transition: all 0.4s;
 }
 
 .header-right a
@@ -202,7 +193,7 @@ ul
   width: 100%;
   height: 2px;
   background-color: black;
-  transition-duration: .25s;
+  transition-duration: 0.4s;
 }
 
 .menu_btn > span::before 
@@ -224,7 +215,7 @@ ul
   visibility: hidden;
   top: 0;
   right: -100%;
-  width: 300px;
+  width: 250px;
   height: 100%;
   margin: 0;
   padding: 80px 0;
@@ -232,7 +223,7 @@ ul
   background-color: #fff;
   opacity: 0.9;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
-  transition-duration: .25s;
+  transition-duration: 0.4s;
 }
 
 .menu_item 
@@ -244,7 +235,7 @@ ul
   font-size: 20px;
   font-weight: 600;
   text-decoration: none;
-  transition-duration: .25s;
+  transition-duration: 0.4s;
   font-weight: normal;
 }
 
@@ -308,7 +299,7 @@ ul
   cursor: pointer;
 }
 
-.bagian-utama 
+.bagian-utama, .bagian-atas 
 {
   max-width: 1366px;
   width: 100%;
@@ -397,13 +388,13 @@ ul
   font-size: 2em;
   font-weight: bold;
   background-color: white;
-  transition: 0.3s ease-in;
+  transition: 0.4s ease-in;
 }
 
 .cari input:hover
 {
   box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.1);
-  transition: 0.3s ease-in;
+  transition: 0.4s ease-in;
   cursor: pointer;
 }
 
@@ -417,7 +408,7 @@ input[type="submit"]
   font-family: "FontAwesome";
   font-size: 2.2em;
   font-weight: normal;
-  transition: 0.3s ease-in;
+  transition: 0.4s ease-in;
   width: 10%;
 }
 
@@ -425,7 +416,7 @@ input[type="submit"]:hover
 {
   background-color: black;
   color: white;
-  transition: 0.3s ease-in;
+  transition: 0.4s ease-in;
   cursor: pointer;
 }
 
@@ -433,7 +424,7 @@ input[type="submit"]:hover
 {
   max-width: 1366px;
   width: 100%;
-  margin: 1%;
+  margin: 1% 0;
   clear: both;
 }
 
@@ -474,7 +465,7 @@ footer
 {
   max-width: 1366px;
   width: 100%;
-  margin: 10px 30px;
+  margin: 10px 0;
 }
 
 .flex-list2 
