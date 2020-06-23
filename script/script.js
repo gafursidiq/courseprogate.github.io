@@ -1,18 +1,21 @@
 function changeCss () 
 {
   var headtrans = document.getElementById("header-trans");
+  var lg = document.getElementById("logo");
 
   if (this.scrollY > 1) 
   {
-    headtrans.classList.add("header");
     headtrans.classList.remove("bghead2");
     headtrans.classList.add("bghead");
+    headtrans.style.backgroundColor = "#fff";
+    lg.src = "./foto/logo.png";
   }
   else 
   {
-    headtrans.classList.remove("header");
     headtrans.classList.remove("bghead");
     headtrans.classList.add("bghead2");
+    headtrans.style.backgroundColor = "rgba(0,0,0,0.0)";
+    lg.src = "./foto/logo-white.png";
   }
 }
 
